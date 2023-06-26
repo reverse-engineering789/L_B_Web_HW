@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <form>
+      <h1>Contact Us Form</h1>
+      <div class="info">
+        <label for="name">Name</label>
+        Name: <input type="text" id="name" placeholder="Enter your name" />
+        <br />
+        <label for="email">Email</label>
+        Email: <input type="text" id="email" placeholder="Enter your name" />
+        <br />
+        <label for="phnumber">Contact</label>
+        Contact Number:
+        <input
+          type="text"
+          id="phnumber"
+          placeholder="Enter your contact number"
+        />
+        <br />
+        Gender:
+        <select>
+          <option value="option1">male</option>
+          <option value="option2">female</option>
+          <option value="option3">other</option>
+        </select>
+
+        <br />
+        <label for="dateInput">Select a Date:</label>
+        <input
+          type="date"
+          id="dateInput"
+          name="dateInput"
+          pattern="\d{2}/\d{2}/\d{4}"
+          required
+        />
+      </div>
+      <div class="rating">
+        <input type="radio" name="rating" id="star1" value="1" />
+        <label for="star1">1</label>
+        <input type="radio" name="rating" id="star2" value="2" />
+        <label for="star2">2</label>
+        <input type="radio" name="rating" id="star3" value="3" />
+        <label for="star3">3</label>
+        <input type="radio" name="rating" id="star4" value="4" />
+        <label for="star4">4</label>
+        <input type="radio" name="rating" id="star5" value="5" />
+        <label for="star5">5</label>
+      </div>
+      <br />
+      <div class="Message">
+        <label for="message">Enter your message:</label>
+        <br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+        <br>
+        <button type="submit" value="submit"></button>
+        <button type="submit" value="reset"></button>
+      </div>
+    </form>
+  </body>
+</html>
