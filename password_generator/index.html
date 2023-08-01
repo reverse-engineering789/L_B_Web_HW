@@ -8,49 +8,69 @@
 </head>
 <body>
     <div class="Container">
-    <div class="main-heading">
-        <h2>PASSWORD GENERATOR</h2>
-    </div>
-
-    <div class="password-box">
+        <h1>PASSWORD GENERATOR</h1>
+     
+    <div class="display-container">
         <!-- <div class="password">text</div> -->
-        <p class="password">text</p>
+        <!-- <p class="password">text</p>
         <p class="Logo">display-logo</p> 
-    </div>
+    </div> -->
 
-    <div class="main-body">
-        <div class="Password-length"></div>
-        <div class="options">
-            <form>
-                <label>
-                  <input type="checkbox" name="checkbox1" value="checkbox1_value">
-                  Checkbox 1 Description
-                </label>
-            
-                <label>
-                  <input type="checkbox" name="checkbox2" value="checkbox2_value">
-                  Checkbox 2 Description
-                </label>
-            
-                <label>
-                  <input type="checkbox" name="checkbox3" value="checkbox3_value">
-                  Checkbox 3 Description
-                </label>
-            
-                <label>
-                  <input type="checkbox" name="checkbox4" value="checkbox4_value">
-                  Checkbox 4 Description
-                </label>
-            </form>   
+    <input readonly placeholder="Password" class="display" data-passwordDisplay>
+
+    <button data-copy>
+        <span data-copyMsg></span>
+        <img src = "./assets/copy.svg" alt = "copy" width = "23" height = "23">
+    </button>
+</div> 
+    <div class="input-container">
+        <div class="length-container">
+            <p><strong>Password Length</strong></p>
+            <p><strong>4</strong></p>
         </div>
-        <div class="Strength-Indicator">
-            <h4>Strenght</h4>
-            <h4>create a circle</h4> 
+         <!--slider-->
+         <input type="range" min="1" max="20" class="slider" step="1" data-lengthSlider>
+         
+                 <!-- checkboxes-->
+
+
+         <div>
+            <input type="checkbox" id = "uppercase">
+            <label for = "uppercase"> Includes Uppercase letters</label>
+         </div>
+
+         <div>
+            <input type="checkbox" id = "lowercase">
+            <label for = "lowercase">Includes Lowercase letters</label>
+         </div>
+
+         <div>
+            <input type="checkbox" id = numbers>
+            <label for="numbers">Includes Numbers</label>
+         </div>
+         <div>
+            <input type="checkbox" id = "symbols">
+            <label for="symbols">Includes symbols</label>
+         </div>
+
+
+          <!-- strength section  -->
+          <div class="strength-container">
+            <p>Stength</p>
+            <div data-indicator>
+
+            </div>
+            <!-- generate password -->
+            <button class="generateButton">Generate Password</button>
+          </div>
+
+          
         </div>
-        <div class="password-generate-box">
-            <button type="submit">GENERATE PASSWORD</button>
-        </div>
+       
+        
+
     </div>
 </div>
+<script src="script.js"></script>
 </body>
 </html>

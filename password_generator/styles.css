@@ -9,23 +9,34 @@
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
+    background-color: #9c1373;
   }
   
   .Container {
     max-width: 600px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 100px;
     background-color: #9c1373;
+
   }
   
   .main-heading {
     text-align: center;
+    color: white;
     margin-bottom: 20px;
+    background-color: #9c1373;
   }
   
   .main-heading h2 {
     font-size: 24px;
     font-weight: bold;
+  }
+
+  .password-length{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
   }
   
   .password-box {
@@ -35,8 +46,16 @@
     text-align: center;
     margin-bottom: 20px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+
   }
-  
+ 
+  .Password-length-indicator {
+    /* Set the width to 100% to take the full width of the parent container */
+    align-items: center;
+}
   .password-box p.password {
     font-size: 20px;
     font-weight: bold;
@@ -48,8 +67,12 @@
     border: 1px solid #ccc;
     padding: 20px;
     margin-bottom: 20px;
+    border-radius: 8px;
   }
   
+  .options {
+    padding: 20px;
+  }
   .options label {
     display: block;
     margin-bottom: 10px;
@@ -58,6 +81,9 @@
   .Strength-Indicator {
     text-align: center;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   
   .Strength-Indicator h4 {
@@ -72,8 +98,9 @@
   
   .password-generate-box button {
     padding: 10px 20px;
-    font-size: 18px;
-    background-color: #4caf50;
+    font-size: 12px;
+    background-color: #c93f3f;
+    border-radius: 8px;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -81,7 +108,7 @@
   }
   
   .password-generate-box button:hover {
-    background-color: #45a049;
+    background-color: #db9614;
   }
   
   /* Responsiveness */
