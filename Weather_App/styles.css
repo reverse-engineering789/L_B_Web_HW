@@ -1,0 +1,49 @@
+.container-page-1{
+    background-color: rgb(9, 0, 15);
+    color: white;
+}
+
+.heading{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+}
+
+#weather-options
+{
+    width:100%;
+    text-align: center;
+}
+/* .your-weather
+.search-weather
+{
+    display:inline-block;
+    margin: 0 10px;
+} */
+.your-weather,
+.search-weather {
+    display: inline-block;
+    margin: 0 100px; /* Add a margin of 10px on both sides of the buttons */
+}
+
+button {
+    padding: 5px 15px;
+    background:  rgb(9, 0, 15);
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+
+button:hover {
+    background: rgb(64, 134, 64);
+}
+
+/* Change color to blue when clicked */
+button:active {
+    background: rgb(4, 104, 82);
+}
