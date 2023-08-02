@@ -1,6 +1,7 @@
 .container-page-1{
     background-color: rgb(9, 0, 15);
     color: white;
+    font-style: Sans-serif;
 }
 
 .heading{
@@ -30,7 +31,7 @@
 
 button {
     padding: 5px 15px;
-    background:  rgb(9, 0, 15);
+    background:  rgb(90, 149, 184);
     border: 0 none;
     cursor: pointer;
     -webkit-border-radius: 5px;
@@ -40,10 +41,34 @@ button {
 
 
 button:hover {
-    background: rgb(64, 134, 64);
+    background: rgb(97, 97, 99);
 }
 
 /* Change color to blue when clicked */
 button:active {
-    background: rgb(4, 104, 82);
+    background: rgb(76, 76, 99);
+}
+
+
+#location_logo{
+    align-items: center;
+    text-align: center;
+    padding: 80px 10px 10px 30px;
+    color: rgb(14, 147, 156);
+}
+
+.location_logo_text{
+    color: white;
+}
+#location_submit_btn{
+    background-color: rgb(8, 20, 175);
+}
+
+#location_submit_btn:hover {
+    background: rgb(74, 99, 136);
+}
+
+/* Change color to blue when clicked */
+#location_submit_btn:active {
+    background: rgb(105, 116, 155);
 }
