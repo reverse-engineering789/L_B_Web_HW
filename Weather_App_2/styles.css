@@ -1,0 +1,93 @@
+.container-page-1{
+    background-color: rgb(9, 0, 15);
+    color: white;
+    font-style: Sans-serif;
+}
+
+.heading{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+}
+
+#weather-options
+{
+    width:100%;
+    text-align: center;
+}
+
+.your-weather,
+.search-weather {
+    display: inline-block;
+    margin: 0 100px; /* Add a margin of 10px on both sides of the buttons */
+}
+
+button {
+    padding: 5px 15px;
+    background:  rgb(90, 149, 184);
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+
+button:hover {
+    background: rgb(97, 97, 99);
+}
+
+/* Change color to blue when clicked */
+button:active {
+    background: rgb(76, 76, 99);
+}
+
+/* #search-bar{
+    background-color: aquamarine;
+    color: black;
+    width: 80px;
+    height: 15px;
+
+    align-items: center;
+    display: flex;
+} */
+#search-bar {
+    width: 80px;
+    height: 10px;
+    background-color: green;
+    color: black;
+    width: 80px;
+    height: 15px;
+    /* height: 100%; */
+    /* margin: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  
+#location_logo{
+    align-items: center;
+    text-align: center;
+    padding: 80px 10px 10px 30px;
+    color: rgb(14, 147, 156);
+}
+
+.location_logo_text{
+    color: white;
+}
+#location_submit_btn{
+    background-color: rgb(8, 20, 175);
+}
+
+#location_submit_btn:hover {
+    background: rgb(74, 99, 136);
+}
+
+/* Change color to blue when clicked */
+#location_submit_btn:active {
+    background: rgb(105, 116, 155);
+}
