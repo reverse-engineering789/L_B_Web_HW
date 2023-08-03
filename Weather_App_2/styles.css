@@ -1,7 +1,10 @@
 .container-page-1{
     background-color: rgb(9, 0, 15);
     color: white;
-    font-style: Sans-serif;
+    font-family: Sans-serif;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 20px;
 }
 
 .heading{
@@ -44,7 +47,7 @@ button:active {
     background: rgb(76, 76, 99);
 }
 
-/* #search-bar{
+#search-bar{
     background-color: aquamarine;
     color: black;
     width: 80px;
@@ -52,24 +55,91 @@ button:active {
 
     align-items: center;
     display: flex;
-} */
-#search-bar {
+}
+
+ #search-container{
     width: 80px;
     height: 10px;
     background-color: green;
     color: black;
     width: 80px;
     height: 15px;
-    /* height: 100%; */
-    /* margin: 0; */
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    padding: 40px 20px 20px 20px;
+    max-width: 400px;
+
   }
 
+  /* Style for the search bar container */
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1px;
+    width: 300px; 
+    margin: 50px auto;
+}
+
+/* Style for the search input box */
+.search-input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 5px;
+    width: 380px;
+    width: 300px; 
+}
+
+/* Style for the search icon */
+ .search-icon {
+    padding: 5px;
+    flex-shrink: 0;
+} 
+
+
+#details_from_api{
+    align-items: center;
+    text-align: center;
+    display: block;
+    color: wheat;
+}
   
-#location_logo{
+
+#details_from_api
+.location_of_place{
+    color: wheat;
+}
+ 
+
+#other_weather_info_container_boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#other_weather_info_container_boxes
+.box1,
+.box2,
+.box3{
+    height: 100px;
+    width: 140px;
+    background-color: rgb(185, 152, 207);
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+/* #location_logo{
     align-items: center;
     text-align: center;
     padding: 80px 10px 10px 30px;
@@ -85,9 +155,9 @@ button:active {
 
 #location_submit_btn:hover {
     background: rgb(74, 99, 136);
-}
+}  */
 
 /* Change color to blue when clicked */
-#location_submit_btn:active {
+/* #location_submit_btn:active {
     background: rgb(105, 116, 155);
-}
+} */
