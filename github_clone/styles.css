@@ -12,3 +12,10 @@
     display: inline-block;
     text-align: center;
 }
+
+
+.discription-third-section-1,
+.buttons-flex{
+    display: flex;
+    border-color: black;
+}
