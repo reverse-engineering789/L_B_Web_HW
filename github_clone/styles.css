@@ -69,11 +69,30 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 90%;
-    height: 200px;
+
+
+    /* --------------------------- */
     border-color: black;
+    /* --------------------------- */
+    /* width: 90%;
+    height: 200px; */
+    /* border-color: black; */
     background-color: red;
+
+
+     /* --------------------------- */
+    flex-wrap: wrap; 
+    /* --------------------------- */
+
 }
+
+.create-repsitory-text{
+    /* width: 50%; */
+    flex: 0 0 50%;
+}
+
+
+
 .discription-third-section-1,
 .buttons-flex{
     background-color: wheat;
