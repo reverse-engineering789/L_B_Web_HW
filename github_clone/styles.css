@@ -61,14 +61,22 @@
     align-items: center;
     text-align: center;
     background-color: white;
-    color: black;
+    color: rgb(0, 0, 0);
+    padding: 0px 0px 0px 150px;
+    align-items: center;
+    justify-content: center;
 }
 
 .create-repository{
     display: flex;
-    justify-content: center;
+    
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+    justify-content: left;
     align-items: center;
     text-align: center;
+    width: 80%;
+    /* padding: 30px; */
 
 
     /* --------------------------- */
@@ -77,7 +85,9 @@
     /* width: 90%;
     height: 200px; */
     /* border-color: black; */
-    background-color: red;
+    /* transform: translate(-50px); */
+    color: white;
+    background-color: blue;
 
 
      /* --------------------------- */
@@ -89,9 +99,27 @@
 .create-repsitory-text{
     /* width: 50%; */
     flex: 0 0 50%;
+    align-items: left;
+    display: inline-block;
+    justify-content: left;
+    text-align: center;
+    width: 50%;
+    border-right: 2px solid wheat;
+    border-left: none; 
+    border-top: none;
+    border-bottom: none; 
+    padding: 10px;
+    height: 100%;
+    margin: 0;
+
 }
 
-
+.create-repsitory-img{
+    display: flex;
+    /* justify-content: center; */
+    align-items:center;
+    justify-content: right;
+}
 
 .discription-third-section-1,
 .buttons-flex{
@@ -120,4 +148,10 @@
     height: 25px;
     background-color: white;
     color: black;
+}
+
+
+
+.discription-third-section-1{
+    margin: 30px;
 }
