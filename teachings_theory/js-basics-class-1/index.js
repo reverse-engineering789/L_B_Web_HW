@@ -1,4 +1,4 @@
-// objects and static values for functions
+//  factory function and objects and static values for functions
 
 
 // let rectangle = { 

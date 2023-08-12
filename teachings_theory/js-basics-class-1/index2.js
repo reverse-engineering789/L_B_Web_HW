@@ -1,4 +1,4 @@
-// Dynamic  values for functions
+// factory function and Dynamic  values for functions
 // passing input paramiters
 
 function createRectangle(leng, bre){
