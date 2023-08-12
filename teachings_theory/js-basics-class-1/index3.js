@@ -25,5 +25,8 @@ function hello2(fname, lname){
     }
 }
 
-let hi = hello2();
+let hi = new hello2(44, 66);
 console.log(hi);
+
+// Output:
+// hello2 { firstname: 44, lastname: 66, draw: [Function (anonymous)] }
