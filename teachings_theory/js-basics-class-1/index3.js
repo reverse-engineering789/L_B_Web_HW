@@ -30,3 +30,5 @@ console.log(hi);
 
 // Output:
 // hello2 { firstname: 44, lastname: 66, draw: [Function (anonymous)] }
+
+

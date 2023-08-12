@@ -78,16 +78,40 @@ body, #container {
 
 #header-3{
     color: white;
-    margin-left: 80px;
+    margin-left: 100px;
     background-color: black
 }
-#header-3,
-features{
+  /* #header-3,
+ features{
     width: 85%;
     height: 400px;
     /* border: 1px white; */
-    border-radius: 5px ;
+    /* border-radius: 5px ;
     margin-left: 100px;
     border: 1px solid white;
+    padding: 50px;
+} */
 
+
+/* #header-3, */
+.header-3-box{
+    width: 80%;
+    margin-left: 0px;
+    height: 400px;
+    border: 1px white;
+    border-radius: 5px ;
+    /* margin-left: 100px; */
+    border: 1px solid white;
+    /* padding: 50px; */
+    align-items: center;
+    /* margin: auto; */
+    
+}
+
+.header-3-features{
+   display: flex;
+}
+
+.header-3-features-text{
+    width: 50%;
 }
