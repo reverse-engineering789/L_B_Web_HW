@@ -8,7 +8,7 @@
 
 // let Rectangle1 = new Function{
 //     'length', 'breadth',
-//     `this.length = length;
+//     `this.length = length;   
 //     this.breadth = brearth;
 //     this.draw = function(){
 //         console.log('drawing');

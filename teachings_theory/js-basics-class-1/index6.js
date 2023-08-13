@@ -4,9 +4,6 @@
 // refereces are copied by their address/references
 
 
-
-
-
 let a = {value:5};
 
 let b = a;
@@ -22,4 +19,4 @@ let b = a;
 // { value: 6 }
 // { value: 6 }
 // 6
-// 6
+// 6                                                            
