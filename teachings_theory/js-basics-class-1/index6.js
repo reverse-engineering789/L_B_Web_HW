@@ -1,22 +1,38 @@
-// primitives and datatypes
+// // primitives and datatypes
 
-// primitives are copied by their value 
-// refereces are copied by their address/references
+// // primitives are copied by their value 
+// // refereces are copied by their address/references
 
 
-let a = {value:5};
+// let a = {value:5};
 
-let b = a;
+// let b = a;
 
- a.value++;
+//  a.value++;
 
- console.log(a);
- console.log(b);
- console.log(a.value);
- console.log(b.value);
+//  console.log(a);
+//  console.log(b);
+//  console.log(a.value);
+//  console.log(b.value);
 
-// Output:
-// { value: 6 }
-// { value: 6 }
-// 6
-// 6                                                            
+// // Output:
+// // { value: 6 }
+// // { value: 6 }
+// // 6
+// // 6                                                            
+
+
+
+// // ------------------------------------------------------------
+
+
+
+let a = 10;
+
+function inc(a){
+    a++;
+}
+
+inc(a);
+
+console.log(a);
