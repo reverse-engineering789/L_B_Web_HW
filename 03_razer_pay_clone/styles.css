@@ -192,3 +192,35 @@ body, #container {
 .header-6-box-heading{
     width: 50%;
 }
+
+
+#bank-details{
+    display: flex;
+    margin-left: 100px;
+}
+
+.bank-details-block-1,
+.bank-details-block-2,
+.bank-details-block-3{
+    width: 200px;
+    height: 100px;
+    background-color: pink;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-right: 120px;
+}
+
+
+.demo-block-4{
+    display: flex;
+    width: 90%;
+    height: 50px;
+    background-color: azure;
+    margin-top: 50px;
+    padding: 20px;
+}
