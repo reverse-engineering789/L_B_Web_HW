@@ -1,0 +1,1 @@
+// with non boolean values

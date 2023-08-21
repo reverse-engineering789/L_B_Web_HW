@@ -54,6 +54,13 @@ if (fname === "Jaipur" || fname === "Delhi"){
 // ---------------------------------------------------
 
 
+const number = 1;
 
+if (number !== 1){
+    console.log("ok")
+}else{
+    console.log("Enter any number except 1");
+}
 
-
+// Output:
+// Enter any number except 1
