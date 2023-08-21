@@ -194,17 +194,18 @@ body, #container {
 }
 
 
-#bank-details{
+#bank-details-7{
     display: flex;
     margin-left: 100px;
+    margin-top: 50px;
 }
 
 .bank-details-block-1,
 .bank-details-block-2,
 .bank-details-block-3{
-    width: 200px;
-    height: 100px;
-    background-color: pink;
+    width: 298px;
+    height: 200px;
+    background-color: rgb(24, 20, 61);
     display: block;
     justify-content: center;
     align-items: center;
@@ -212,15 +213,33 @@ body, #container {
     border: 1px solid white;
     border-radius: 5px;
     margin-top: 40px;
-    margin-right: 120px;
+    margin-right: 50px;
 }
 
 
-.demo-block-4{
+#demo-block-8{
     display: flex;
-    width: 90%;
+    width: 80%;
     height: 50px;
-    background-color: azure;
+    background-color: rgb(24, 20, 61);
     margin-top: 50px;
     padding: 20px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    /* margin-right: 100px; */
+    border: 1px solid white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+
+.demo-button{
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: aqua;
+
 }
