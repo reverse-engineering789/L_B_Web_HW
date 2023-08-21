@@ -2,6 +2,21 @@
 // passing input paramiters
 
 function createRectangle(leng, bre){
+       rectangle = {
+        length: leng,
+        height:bre,
+
+        draw(){
+            console.log('drawing rectangle');
+        }
+    };
+    return rectangle;
+}
+
+
+// Or 
+
+function createRectangle(leng, bre){
     return rectangle = {
         length: leng,
         height:bre,

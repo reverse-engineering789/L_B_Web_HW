@@ -30,3 +30,6 @@ function createRectangle(){
 
 let rectangleObj1 = createRectangle();
 console.log(rectangleObj1); 
+
+// Output:
+// { length: 2, draw: [Function: draw] }
