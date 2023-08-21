@@ -146,9 +146,15 @@ body, #container {
     margin-bottom: 100px;
     margin-right: 100px;
 }
+<<<<<<< HEAD
 /* .header-4-payment-more-info-text{
     
 } */
+=======
+.header-4-payment-more-info-text{
+    
+}
+>>>>>>> 5c6f91f1bf88a7d7c44d98244ebf1ecef97f038f
 
 
 
@@ -192,6 +198,7 @@ body, #container {
 .header-6-box-heading{
     width: 50%;
 }
+<<<<<<< HEAD
 
 
 #bank-details-7{
@@ -243,3 +250,5 @@ body, #container {
     background-color: aqua;
 
 }
+=======
+>>>>>>> 5c6f91f1bf88a7d7c44d98244ebf1ecef97f038f
