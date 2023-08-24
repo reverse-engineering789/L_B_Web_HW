@@ -1,4 +1,18 @@
+// function createFunction(){
+//     console.log("Hello world test");
+// }
+// createFunction();
+
+
+// // Output:
+// // Hello world test
+
+
+// // ------------------------------------
+
 createFunction();
+
+
 function createFunction(){
     console.log("Hello world test");
 }
@@ -24,6 +38,21 @@ stand();
 // walking
 
 // ----------------------------------------
+
+standd();
+
+let standd = function walk(){
+    console.log('walking');
+}
+
+
+
+// Output:
+// Cannot access 'standd' before initialization
+
+
+//  // -----------------------------------
+
 
 
 let stand2 = function walk(){
