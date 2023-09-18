@@ -106,3 +106,6 @@ function appendNewMessage(){
 
 addPara();
 appendNewMessage();
+ 
+
+ 
